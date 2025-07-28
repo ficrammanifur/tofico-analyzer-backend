@@ -1,6 +1,7 @@
-# 🏢 Tofico Analyzer Backend
+<h1 align="center"># 🏢 Tofico Analyzer Backend</h1>
+<p align="center"><em>FastAPI-based Decision Support System for Optimal Location Selection</em></p>
 
-> **FastAPI-based Decision Support System for Optimal Location Selection**
+---
 
 A robust backend API for the Tofico Analyzer Decision Support System that helps businesses determine the best locations for their operations using Multi-Criteria Decision Making (MCDM) algorithms.
 
@@ -8,6 +9,8 @@ A robust backend API for the Tofico Analyzer Decision Support System that helps 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-orange.svg)](https://mysql.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+---
 
 ## 📋 Table of Contents
 
@@ -24,6 +27,8 @@ A robust backend API for the Tofico Analyzer Decision Support System that helps 
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
+---
+
 ## 🎯 Overview
 
 The Tofico Analyzer Backend is a comprehensive API solution designed to support decision-making processes for location selection. It implements two powerful MCDM algorithms:
@@ -32,6 +37,8 @@ The Tofico Analyzer Backend is a comprehensive API solution designed to support 
 - **WP (Weighted Product)** - Multiplicative aggregation method
 
 The system evaluates multiple locations against various criteria such as population density, accessibility, competition level, rental costs, and market potential to provide data-driven recommendations.
+
+---
 
 ## ✨ Features
 
@@ -56,6 +63,8 @@ The system evaluates multiple locations against various criteria such as populat
 - ✅ **Evaluation System** - Score locations against criteria
 - ✅ **Result Caching** - Store calculation results for performance
 
+---
+
 ## 🛠️ Tech Stack
 
 | Component | Technology | Version |
@@ -67,6 +76,8 @@ The system evaluates multiple locations against various criteria such as populat
 | **Validation** | Pydantic | 2.5+ |
 | **Server** | Uvicorn | 0.24+ |
 | **Environment** | python-dotenv | 1.0+ |
+
+---
 
 ## 🚀 Quick Start
 
@@ -118,6 +129,8 @@ The system evaluates multiple locations against various criteria such as populat
 
 🎉 **Server will be running at:** `http://localhost:8000`
 
+---
+
 ### 🔍 **Verify Installation**
 
 ```bash
@@ -127,6 +140,8 @@ curl http://localhost:8000/health
 # View API documentation
 open http://localhost:8000/docs
 ```
+
+---
 
 ## 📊 Database Schema
 
@@ -266,6 +281,8 @@ curl -X PUT "http://localhost:8000/evaluations" \
 }'
 ```
 
+---
+
 ## 🧮 Algorithms
 
 ### 🏆 **SAW (Simple Additive Weighting)**
@@ -312,6 +329,8 @@ Given data:
 2. Surabaya: 0.335
 3. Bandung: 0.285
 
+---
+
 ## 🔧 Configuration
 
 ### 📄 **Environment Variables (.env)**
@@ -325,13 +344,12 @@ DB_PASSWORD=your_mysql_password
 DB_PORT=3306
 ```
 
-# Server Configuration
+### Server Configuration
 PORT=8000
 DEBUG=True
 
-# Optional: External API Keys
-# MAPS_API_KEY=your_google_maps_key
-
+### Optional: External API Keys
+MAPS_API_KEY=your_google_maps_key
 
 ### ⚙️ **Database Configuration**
 
@@ -349,6 +367,8 @@ DB_CONFIG = {
 }
 ```
 
+---
+
 ## 📝 License
 <p align="center">
   <a href="https://github.com/ficrammanifur/ficrammanifur/blob/main/LICENSE">
@@ -356,4 +376,4 @@ DB_CONFIG = {
   </a>
 </p>
 
-<p align="left"><a href="#tofico-analyzer-backend">↑ RETURN</a></p>
+<p align="centre"><a href="#tofico-analyzer-backend">↑ RETURN</a></p>
