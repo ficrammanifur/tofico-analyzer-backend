@@ -17,7 +17,7 @@
   <a href="https://mysql.com">
     <img src="https://img.shields.io/badge/MySQL-8.0+-orange.svg" />
   </a>
-  <a href="LICENSE">
+  <a href="[LICENSE](https://github.com/ficrammanifur/ficrammanifur/blob/main/LICENSE)">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
@@ -378,14 +378,5 @@ DB_CONFIG = {
     'autocommit': True
 }
 ```
-
----
-
-## 📝 License
-<p align="center">
-  <a href="https://github.com/ficrammanifur/ficrammanifur/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue" alt="License: MIT" />
-  </a>
-</p>
 
 <p align="centre"><a href="#tofico-analyzer-backend">↑ RETURN</a></p>
