@@ -16,11 +16,11 @@
   </a>
   <a href="https://mysql.com">
     <img src="https://img.shields.io/badge/MySQL-8.0+-orange.svg" />
-  </a>
-  <a href="[LICENSE](https://github.com/ficrammanifur/ficrammanifur/blob/main/LICENSE)">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  <a href="https://github.com/ficrammanifur/ficrammanifur/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="License: MIT" />
   </a>
 </p>
+
 
 ---
 
