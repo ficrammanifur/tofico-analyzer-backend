@@ -3,12 +3,24 @@
 
 ---
 
-A robust backend API for the Tofico Analyzer Decision Support System that helps businesses determine the best locations for their operations using Multi-Criteria Decision Making (MCDM) algorithms.
+<p align="center">
+  A robust backend API for the <strong>Tofico Analyzer Decision Support System</strong> that helps businesses determine the best locations for their operations using Multi-Criteria Decision Making (MCDM) algorithms.
+</p>
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com)
-[![MySQL](https://img.shields.io/badge/MySQL-8.0+-orange.svg)](https://mysql.com)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<p align="center">
+  <a href="https://python.org">
+    <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" />
+  </a>
+  <a href="https://fastapi.tiangolo.com">
+    <img src="https://img.shields.io/badge/FastAPI-0.104+-green.svg" />
+  </a>
+  <a href="https://mysql.com">
+    <img src="https://img.shields.io/badge/MySQL-8.0+-orange.svg" />
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
 ---
 
