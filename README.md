@@ -79,13 +79,13 @@ The system evaluates multiple locations against various criteria such as populat
 ### 🔧 Installation
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/tofico-analyzer-backend.git
    cd tofico-analyzer-backend
-   \`\`\`
+   ```
 
 2. **Create virtual environment**
-   \`\`\`bash
+   ```bash
    python -m venv venv
    
    # Windows
@@ -93,46 +93,46 @@ The system evaluates multiple locations against various criteria such as populat
    
    # Linux/Mac
    source venv/bin/activate
-   \`\`\`
+   ```
 
 3. **Install dependencies**
-   \`\`\`bash
+   ```bash
    pip install -r requirements_normalized.txt
-   \`\`\`
+   ```
 
 4. **Configure environment**
-   \`\`\`bash
+   ```bash
    cp .env.example .env
    # Edit .env with your database credentials
-   \`\`\`
+   ```
 
 5. **Setup database**
-   \`\`\`bash
+   ```bash
    python setup_normalized_db.py
-   \`\`\`
+   ```
 
 6. **Run the server**
-   \`\`\`bash
+   ```bash
    python main_normalized.py
-   \`\`\`
+   ```
 
 🎉 **Server will be running at:** `http://localhost:8000`
 
 ### 🔍 **Verify Installation**
 
-\`\`\`bash
+```bash
 # Test API health
 curl http://localhost:8000/health
 
 # View API documentation
 open http://localhost:8000/docs
-\`\`\`
+```
 
 ## 📊 Database Schema
 
 ### 🗄️ **Tables Overview**
 
-\`\`\`sql
+```sql
 -- Locations table
 CREATE TABLE locations (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -176,7 +176,7 @@ CREATE TABLE calculation_results (
     calculated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (location_id) REFERENCES locations(id) ON DELETE CASCADE
 );
-\`\`\`
+```
 
 ### 🔗 **Relationships**
 
@@ -187,9 +187,9 @@ CREATE TABLE calculation_results (
 ## 🌐 API Documentation
 
 ### 📍 **Base URL**
-\`\`\`
+```
 http://localhost:8000
-\`\`\`
+```
 
 ### 🔑 **Authentication**
 Currently, no authentication is required. All endpoints are publicly accessible.
@@ -232,7 +232,7 @@ Currently, no authentication is required. All endpoints are publicly accessible.
 ### 📝 **Request/Response Examples**
 
 #### **Create Location**
-\`\`\`bash
+```bash
 curl -X POST "http://localhost:8000/locations" \
 -H "Content-Type: application/json" \
 -d '{
@@ -241,10 +241,10 @@ curl -X POST "http://localhost:8000/locations" \
   "latitude": -6.2297,
   "longitude": 106.8261
 }'
-\`\`\`
+```
 
 #### **Create Criteria**
-\`\`\`bash
+```bash
 curl -X POST "http://localhost:8000/criteria" \
 -H "Content-Type: application/json" \
 -d '{
@@ -253,10 +253,10 @@ curl -X POST "http://localhost:8000/criteria" \
   "weight": 0.15,
   "type": "benefit"
 }'
-\`\`\`
+```
 
 #### **Update Evaluation**
-\`\`\`bash
+```bash
 curl -X PUT "http://localhost:8000/evaluations" \
 -H "Content-Type: application/json" \
 -d '{
@@ -264,7 +264,7 @@ curl -X PUT "http://localhost:8000/evaluations" \
   "criteria_id": "transportation",
   "value": 85
 }'
-\`\`\`
+```
 
 ## 🧮 Algorithms
 
@@ -316,13 +316,14 @@ Given data:
 
 ### 📄 **Environment Variables (.env)**
 
-\`\`\`env
+```env
 # Database Configuration
 DB_HOST=localhost
 DB_NAME=tofico_analyzer
 DB_USER=root
 DB_PASSWORD=your_mysql_password
 DB_PORT=3306
+```
 
 # Server Configuration
 PORT=8000
@@ -330,7 +331,7 @@ DEBUG=True
 
 # Optional: External API Keys
 # MAPS_API_KEY=your_google_maps_key
-\`\`\`
+
 
 ### ⚙️ **Database Configuration**
 
@@ -346,3 +347,13 @@ DB_CONFIG = {
     'charset': 'utf8mb4',
     'autocommit': True
 }
+```
+
+## 📝 License
+<p align="center">
+  <a href="https://github.com/ficrammanifur/ficrammanifur/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="License: MIT" />
+  </a>
+</p>
+
+<p align="left"><a href="#tofico-analyzer-backend">↑ RETURN</a></p>
