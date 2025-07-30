@@ -381,6 +381,6 @@ DB_CONFIG = {
 
 <div align="center">
 
-<p><a href="#top">⬆ Kembali ke Atas</a></p>
+<p><a href="#top">⬆ Back on Top</a></p>
 
 </div>
