@@ -1,4 +1,4 @@
-<h1 align="center"># 🏢 Tofico Analyzer Backend</h1>
+<h1 align="center"> 🏢 Tofico Analyzer Backend</h1>
 <p align="center"><em>FastAPI-based Decision Support System for Optimal Location Selection</em></p>
 
 ---
