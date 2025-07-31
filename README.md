@@ -379,4 +379,8 @@ DB_CONFIG = {
 }
 ```
 
-<p align="centre"><a href="#tofico-analyzer-backend">↑ RETURN</a></p>
+<div align="center">
+
+<p><a href="#top">⬆ Kembali ke Atas</a></p>
+
+</div>
